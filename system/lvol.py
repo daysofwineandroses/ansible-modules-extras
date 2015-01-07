@@ -25,6 +25,7 @@ module: lvol
 short_description: Configure LVM logical volumes
 description:
   - This module creates, removes or resizes logical volumes.
+  - Note that when resizing, only the logical volume will be resized, not the file system on top.
 version_added: "1.1"
 options:
   vg:
